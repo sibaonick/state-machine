@@ -34,3 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: Attest Build Provenance
+        uses: actions/attest-build-provenance@v1.4.4
+            
